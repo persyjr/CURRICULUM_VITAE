@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+    
+/* PRIMER HOJA DE CSS PARA PRACTICA 4GEEKS PROFE MACCA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #232427;
+}
+.contenedor .carta{
+    position: relative;
+    
+    min-width: 520px;
+    
+    /*width: 90vh;*/
+    height: 1400px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0),
+                inset -5px -5px 15px rgba(225,255,255,0.1),
+                5px 5px 15px rgba(0,0,0,0.3),
+                -5px -5px 15px rgba(255,255,255,0.1);
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.contenedor .carta::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(225,255,255,0.1);
+    
+}
+.contenedor .carta .caja{
+    
+    position: absolute;
+    
+    top: 20px;
+    Left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #2a2b2f;
+    border: 2px solid #1e1f23;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenedor .carta .caja::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(225,255,255,0.05);
+    pointer-events: none;
+}
+.contenedor .carta .caja:hover{
+    transform: translateY(-50px);
+    box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+}
+.contenedor .carta .caja .paragrhap:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+    transition: 0.9s;
+    background: rgba(225,255,255,0.05);
+    
+    /*background: rgba(27, 153, 215, 0.283);*/
+}
+
+
+.fa:hover{
+    background: #33a3ee;
+    transform: translateY(-20px);
+    box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+    transition: 0.9s;
+    border-radius: 30%;
+}
+
+.contenedor .carta .caja .contenido h2{
+    position: absolute;
+    top: -15px;
+    right:50px;
+    font-size: 6em; /*TAMAÑO DE TITULO */
+    color: rgba(225,255,255,0.05);
+}
+.contenedor .carta .caja .contenido {
+    padding: 3%;
+    text-align: justify;
+    width: 100%;
+}
+
+
+.contacBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3%;
+}
+.icon{
+    width: auto;
+    height: 60px;
+}
+ul {
+    list-style: none;
+}
+.subTitle-1{
+    font-family: 'Lugrasimo', cursive;
+    text-align: center;
+    margin: 3%;
+    color: rgba(225,255,255,0.6);
+    font-size: 1.5rem;
+}
+.subTitle-2, a {
+    font-family: 'Lugrasimo', cursive;
+    text-align: left;
+    margin: 0;
+    color: rgba(225,255,255,0.5);
+    font-size: 0.7rem;
+}
+.languages{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    padding: 5%;
+    
+}
+#fotoPerfil{
+    border-radius: 50%;
+    padding: 5%;
+    object-fit: scale-down;
+    height: 300px;
+    width: 300px;
+}
+#fotoPerfil:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 40px 70px rgba(4, 134, 247, 0.5);
+    transition: 0.9s;
+    
+}
+#nameProfile{
+    font-family: 'Lugrasimo', cursive;
+    font-size: 2.5em; 
+    color: rgba(225,255,255,0.6);
+}
+
+#profesion{
+    font-family: 'Lugrasimo', cursive;
+    font-style: oblique;
+    color: rgba(225,255,255,0.6);
+}
+p{
+    color: rgba(225,255,255,0.3);
+    font-size: 0.85rem;
+}
+
+.text{
+    /*
+    position: absolute;
+    bottom: -42px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;   
+    */
+    
+    
+    
+    z-index: 12;
+    
+    padding: 10px ;
+    background: rgba(249, 249, 248, 0.105);
+    border-radius: 15px;
+    
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    pointer-events: none;
+    transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
+    z-index: 1;
+    transition-delay:0s, 0.5s, 0.5s, 0s ;
+    color: #fff;
+}
+
+ul:hover .text{
+    bottom: 70px;
+    z-index: 11;
+    transform: translateY(-50px);
+    padding: 10px 20px 10px;
+    background: rgba(4, 134, 247, 0.9);
+    box-shadow: 0 40px 70px rgba(4, 134, 247, 0.5);
+}
+.certificates{
+    width: 300PX;
+}
+.projects{ /*SECCION DE PROJECTS*/
+    position: relative;
+    
+    width: 900px;
+    
+    
+}
+.bodyswipper {
+    background: rgba(225,255,255,0.1);;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 700px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .quote{
+    padding: 10%;
+  }
