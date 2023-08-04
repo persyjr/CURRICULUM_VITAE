@@ -21,7 +21,7 @@ body{
 .contenedor .carta{
     position: relative;
     
-    min-width: 430px;
+    min-width: 470px;
     
     /*width: 90vh;*/
     height: 1400px;
@@ -99,7 +99,7 @@ body{
     position: absolute;
     top: -15px;
     right:50px;
-    font-size: 5.5em; /*TAMAÑO DE TITULO */
+    font-size: 6em; /*TAMAÑO DE TITULO */
     color: rgba(225,255,255,0.05);
 }
 .contenedor .carta .caja .contenido {
@@ -118,7 +118,7 @@ body{
 }
 .icon{
     width: auto;
-    height: 50px;
+    height: 60px;
 }
 ul {
     list-style: none;
@@ -160,7 +160,7 @@ ul {
 }
 #nameProfile{
     font-family: 'Lugrasimo', cursive;
-    font-size: 2.3em; 
+    font-size: 2.5em; 
     color: rgba(225,255,255,0.6);
 }
 
@@ -216,7 +216,7 @@ ul:hover .text{
 .projects{ /*SECCION DE PROJECTS*/
     position: relative;
     
-    width: 860px;
+    width: 940px;
     
     
 }
