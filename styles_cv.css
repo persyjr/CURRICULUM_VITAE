@@ -21,7 +21,7 @@ body{
 .contenedor .carta{
     position: relative;
     
-    min-width: 480px;
+    min-width: 450px;
     
     /*width: 90vh;*/
     height: 1400px;
@@ -99,7 +99,7 @@ body{
     position: absolute;
     top: -15px;
     right:50px;
-    font-size: 6em; /*TAMAÑO DE TITULO */
+    font-size: 5.8em; /*TAMAÑO DE TITULO */
     color: rgba(225,255,255,0.05);
 }
 .contenedor .carta .caja .contenido {
@@ -118,7 +118,7 @@ body{
 }
 .icon{
     width: auto;
-    height: 60px;
+    height: 50px;
 }
 ul {
     list-style: none;
