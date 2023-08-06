@@ -20,7 +20,7 @@ body{
 }
 .contenedor .carta{
     position: relative;
-    min-width: 400px;
+    min-width: 370px;
     /*width: 90vh;*/
     height: 1400px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,0),
@@ -97,7 +97,7 @@ body{
     position: absolute;
     top: -15px;
     right:50px;
-    font-size: 5em; /*TAMAÑO DE TITULO */
+    font-size: 4.5em; /*TAMAÑO DE TITULO */
     color: rgba(225,255,255,0.05);
 }
 .contenedor .carta .caja .contenido {
@@ -116,7 +116,7 @@ body{
 }
 .icon{
     width: auto;
-    height: 50px;
+    height: 40px;
 }
 ul {
     list-style: none;
@@ -133,12 +133,12 @@ ul {
     text-align: left;
     margin: 0;
     color: rgba(225,255,255,0.5);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .languages{
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 100%;
     justify-content: space-around;
     padding: 5%;
     
@@ -158,7 +158,7 @@ ul {
 }
 #nameProfile{
     font-family: 'Lugrasimo', cursive;
-    font-size: 2.2em; 
+    font-size: 2em; 
     color: rgba(225,255,255,0.6);
 }
 
@@ -214,7 +214,7 @@ ul:hover .text{
 .projects{ /*SECCION DE PROJECTS*/
     position: relative;
     
-    width: 800px;
+    width: 740px;
     
     
 }
@@ -239,7 +239,7 @@ ul:hover .text{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 310px;
     height: 700px;
   }
 
