@@ -85,7 +85,7 @@ body{
 }
 
 
-.fa:hover{
+.facontact:hover{
     background: #33a3ee;
     transform: translateY(-20px);
     box-shadow: 0 40px 70px rgba(0,0,0,0.5);
@@ -108,11 +108,11 @@ body{
 
 
 .contacBox{
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    padding: 3%;
+    padding: 5%;
 }
 .icon{
     width: auto;
@@ -250,3 +250,8 @@ ul:hover .text{
   .quote{
     padding: 5%;
   }
+  
+  .linkContact{
+    color: #000;
+    text-decoration:none;
+ }
