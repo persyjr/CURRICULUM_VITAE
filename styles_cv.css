@@ -21,7 +21,7 @@ body{
 .contenedor .carta{
     position: relative;
     
-    min-width: 462px;
+    min-width: 455px;
     
     /*width: 90vh;*/
     height: 1500px;
@@ -52,7 +52,7 @@ body{
     right: 20px;
     bottom: 20px;
     background: #2a2b2f;
-    border: 2px solid #1e1f23;
+    border: 1px solid #1e1f23;
     border-radius: 15px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
     transition: 0.5s;
