@@ -96,9 +96,12 @@ body{
 .contenedor .carta .caja .contenido h2{
     position: absolute;
     top: -15px;
-    right:50px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
     font-size: 4.5em; /*TAMAÑO DE TITULO */
     color: rgba(225,255,255,0.05);
+    
 }
 .contenedor .carta .caja .contenido {
     padding: 2% 1%;
