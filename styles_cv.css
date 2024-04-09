@@ -150,8 +150,8 @@ ul {
     border-radius: 50%;
     padding: 1%;
     object-fit: scale-down;
-    height: 230px;
-    width: 230px;
+    height: 200px;
+    width: 200px;
 }
 #fotoPerfil:hover{
     transform: translateY(-20px);
@@ -169,6 +169,7 @@ ul {
     font-family: 'Lugrasimo', cursive;
     font-style: oblique;
     color: rgba(225,255,255,0.6);
+    font-size: 0.8em; 
 }
 p{
     color: rgba(225,255,255,0.3);
